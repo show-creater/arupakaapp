@@ -118,7 +118,8 @@ const TimeTableInfo = (props) => {
           <TouchableOpacity style={[styles.determinationButton,{backgroundColor:'#D9D9D9'}]} onPress={()=>{props.onEventCallBack();props.onSudmit(infoDetail)}}><Text style={{color:'#595959',fontSize:18,}}>OK</Text></TouchableOpacity>
           <TouchableOpacity style={styles.determinationButton} onPress={()=>{props.onEventCallBack()}}><Text style={{color:'#595959'}}>キャンセル</Text></TouchableOpacity>
         </View>
-    </View>
+    </View> 
   );
 };
+//a
 export default TimeTableInfo;
